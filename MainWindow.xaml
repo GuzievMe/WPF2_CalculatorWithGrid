@@ -25,7 +25,8 @@
             <Label Grid.Column="1"  Content=" Standart" FontWeight="Bold" FontSize="25" />
             <Button Grid.Column="0" >
                 <Button.Content>
-                    <Image Source="icons8-menu-26.png" Width="25" Height="25"/>
+                    
+                    <Image Source = "C:\Users\Maham\Desktop\WpfHomeApp2_CalculatorWithGrid\imgs\icons8Hhamburger.png" Width="25" Height="25"/>
                 </Button.Content>
             </Button>
             <!--<TreeView Grid.Column=" 3"  VerticalAlignment="Top" HorizontalAlignment="Right" >
@@ -38,10 +39,10 @@
             </TabControl>-->
             <Button Grid.Column="2" HorizontalAlignment="Right" MouseDoubleClick ="emeliyyatlarSiyahisi" Width="30" Height=" 30" >
                 <Button.Content  >
-                    <Image Source = "DesignTimeBuildicons8-timer-50.png" Width=" 20" Height=" 20"/>
+                    <Image Source = "C:\Users\Maham\Desktop\WpfHomeApp2_CalculatorWithGrid\imgs\icons8-timer-50.png" Width=" 20" Height=" 20"/>
                 </Button.Content>
             </Button>
-            
+
 
         </Grid>
 
@@ -119,7 +120,7 @@
                      Click="Ishlem_withClick"/>
             <Button  Grid.Row="1" Grid.Column=" 2"  Margin="5" >
                 <Button.Content >
-                    <Image  Source="C:\Users\Maham\Desktop\WpfHomeApp2_CalculatorWithGrid\imgs\icons8-square-root-24"/>
+                    <Image  Source="C:\Users\Maham\Desktop\WpfHomeApp2_CalculatorWithGrid\imgs\icons8-square-root-24.png"/>
                 </Button.Content>
             </Button>
             <Button Name ="bolu"  Grid.Row="1" Grid.Column=" 3" Content="/" Margin="5"
